@@ -28,7 +28,7 @@ Make sure you have Python 3.11.6 installed on your system. You can download it f
 1. **Clone the repository**
 
     ```sh
-    git clone https://github.com/DarkSkull777/blum-bot.git
+    git clone https://github.com/isonnymichael/blum-bot.git
     cd blum-bot
     ```
 
