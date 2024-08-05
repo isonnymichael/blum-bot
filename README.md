@@ -55,7 +55,9 @@ Make sure you have Python 3.11.6 installed on your system. You can download it f
 
 ## Usage
 
-Once the script is running, it will automate the Blum Crypto game on your Telegram bot. Ensure your Telegram bot is properly set up and configured to work with the Blum Crypto game.
+Open your Telegram desktop and start playing Blum. Once the script is running, it will automate the Blum Crypto game on your Telegram bot. Ensure your Telegram bot is properly set up and configured to work with the Blum Crypto game.
+
+Press `K` to start and stop the bot.
 
 If you have any suggestions or improvements, feel free to open an issue. If you like this repository and find it helpful, please give it a star ⭐!
 
