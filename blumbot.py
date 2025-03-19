@@ -117,15 +117,6 @@ else:
         for x in range(0, width, 10):
             for y in range(height-1, half_height-1, -10):
                 r, g, b = scrn.getpixel((x, y))
-                if (b in range(70, 140)) and (r in range(137, 255)) and (g in range(64, 129)):
-                    print(f"Debug: Matching color (148, 74, 81) found at ({x}, {y}) with RGB({r}, {g}, {b})")
-
-                    screen_x = window_rect[0] + x
-                    screen_y = window_rect[1] + y
-                    click(screen_x + 4, screen_y)
-                    time.sleep(0.001)
-                    pixel_found = True
-                    break
 
                 if (b in range(0, 125)) and (r in range(102, 220)) and (g in range(200, 255)):
                     print(f"Debug: Matching range found at ({x}, {y}) with RGB({r}, {g}, {b})")
